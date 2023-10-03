@@ -1,0 +1,180 @@
+.tabs {
+    padding-bottom: 180px;
+
+    @media (max-width: 500px) {
+        padding-bottom: 140px;
+    }
+
+    @media (max-width: 375px) {
+        padding-bottom: 80px;
+    }
+}
+
+.title-tabs-main {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+
+    &__item {
+        font-family: 'Formular';
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 64px;
+        line-height: 1.2;
+
+        @media (max-width: 900px) {
+            font-size: 54px;
+            padding: 0 15px;
+        }
+
+        @media (max-width: 500px) {
+            font-size: 34px;
+            padding: 0 10px;
+        }
+
+        @media (max-width: 375px) {
+            font-size: 24px;
+        }
+    }
+}
+
+.tabs-nav {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 900px) {
+        padding: 0 15px;
+    }
+
+    @media (max-width: 500px) {
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+    }
+
+    @media (max-width: 375px) {
+        font-size: 16px;
+    }
+
+    &__item {
+        font-family: 'Formular';
+        font-weight: 400;
+        font-size: 30px;
+        color: #212121;
+        margin-bottom: 55px;
+
+        @media (max-width: 900px) {
+            font-size: 26px;
+        }
+
+        @media (max-width: 500px) {
+            font-size: 20px;
+            margin-bottom: 35px;
+        }
+
+        @media (max-width: 375px) {
+            margin-bottom: 15px;
+            font-size: 16px;
+        }
+    }
+
+    &__item.is-active {
+        border-bottom: 1px solid #000000;
+        padding-bottom: 5px;
+    }
+}
+
+.content-tabs-main {
+    &__tab {
+        position: relative;
+        display: none;
+    }
+
+    &__tab.is-active {
+        display: block;
+    }
+
+    &__tab1,
+    &__tab2,
+    &__tab3,
+    &__tab4 {
+        max-width: 100%;
+        height: auto;
+
+        @media (max-width: 500px) {
+            max-width: 425px;
+            padding: 0 15px;
+        }
+
+        @media (max-width: 375px) {
+            max-width: 350px;
+            padding: 0 10px;
+        }
+    }
+
+    &__txt {
+        z-index: 1;
+        position: absolute;
+        left: 45px;
+        bottom: 40px;
+        max-width: 400px;
+        font-family: 'Formular';
+        font-weight: 400;
+        font-size: 18px;
+        color: #ffffff;
+        line-height: 1.2;
+
+        @media (max-width: 500px) {
+            max-width: 400px;
+            font-size: 16px;
+        }
+
+        @media (max-width: 375px) {
+            max-width: 275px;
+            font-size: 14px;
+        }
+    }
+}
+
+
+// Модификаторы
+.start {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tab-2 {
+    margin-left: 15%;
+}
+
+.tab-3 {
+    margin-left: 35%;
+}
+
+.tab-4 {
+    margin-left: 50%;
+}
+
+@media (max-width: 960px) {
+    .tab-1,
+    .tab-2,
+    .tab-3,
+    .tab-4 {
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .tab-2,
+    .tab-3,
+    .tab-4 {
+        margin-left: 0;
+    }
+}
