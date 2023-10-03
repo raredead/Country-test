@@ -1,0 +1,132 @@
+.cities {
+    padding: 150px 0 180px 0;
+
+    @media(max-width: 960px) {
+        padding: 120px 0 140px 0;
+    }
+
+    @media(max-width: 500px) {
+        padding: 100px 0 100px 0;
+    }
+
+    @media(max-width: 375px) {
+        padding: 50px 0 70px 0;
+    }
+}
+
+.cities-main {
+    &__title {
+        font-family: 'Formular';
+        font-weight: 700;
+        font-size: 64px;
+        text-align: center;
+        color: #212121;
+        margin-bottom: 90px;
+
+        @media(max-width: 960px) {
+            font-size: 55px;
+            margin-bottom: 80px;
+        }
+
+        @media(max-width: 500px) {
+            font-size: 35px;
+            margin-bottom: 60px;
+        }
+
+        @media(max-width: 375px) {
+            font-size: 30px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+.block-cities-main {
+    display: flex;
+    justify-content: space-between;
+
+    @media(max-width: 960px) {
+        padding: 0 15px;
+    }
+
+    @media(max-width: 500px) {
+        flex-wrap: wrap;
+    }
+
+    &__content {
+        @media(max-width: 960px) {
+            padding-left: 15px;
+        }
+
+        @media(max-width: 500px) {
+            text-align: center;
+        }
+    }
+
+    &__txt {
+        font-family: 'Formular';
+        font-weight: 400;
+        color: #212121;
+        line-height: 1.2;
+        max-width: 475px;
+        font-size: 18px;
+        margin: 50px 0 35px 0;
+
+        @media(max-width: 960px) {
+            margin: 0 0 25px 0;
+        }
+
+        @media(max-width: 500px) {
+            font-size: 16px;
+        }
+
+        @media(max-width: 375px) {
+            font-size: 14px;
+        }
+    }
+}
+
+.img-block-cities-main {
+    max-width: 100%;
+    height: auto;
+}
+
+.region-block-cities-main {
+    &__position {
+        display: flex;
+        align-items: center;
+        padding-bottom: 165px;
+
+        @media(max-width: 960px) {
+            padding-bottom: 145px;
+        }
+
+        @media(max-width: 500px) {
+            padding-bottom: 80px;
+        }
+
+        @media(max-width: 375px) {
+            padding-bottom: 50px;
+        }
+    }
+
+    &__region {
+        font-family: 'Formular';
+        font-weight: 400;
+        font-size: 18px;
+        color: #212121;
+        line-height: 1.2;
+        margin-left: 15px;
+
+        @media(max-width: 500px) {
+            font-size: 16px;
+        }
+
+        @media(max-width: 375px) {
+            font-size: 14px;
+        }
+    }
+
+    &__region:hover {
+        text-decoration: underline;
+    }
+}
