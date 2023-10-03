@@ -1,0 +1,89 @@
+// Модификаторы для кнопки(используется в нескольких блоках)
+.btn {
+    @media (max-width: 500px) {
+        width: 70px;
+    }
+
+    @media (max-width: 375px) {
+        width: 70px;
+    }
+}
+
+.btn-wrap {
+    display: flex;
+    align-items: center;
+    border: none;
+    padding: 0 23px;
+    height: 52px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: #000000;
+    position: relative;
+    cursor: pointer;
+    color: #ffffff;
+    transition: .3s ease-in;font-size: 16px;
+
+    @media (max-width: 960px) {
+        padding: 0 20px;
+        height: 42px;
+    }
+
+    @media (max-width: 500px) {
+        padding: 0 0;
+        height: 35px;
+    }
+
+    @media (max-width: 375px) {
+        height: 35px;
+    }
+}
+
+.btn-wrap::after {
+    content: '';
+    display: block;
+    clear: both;
+    width: 0;
+    height: 0;
+    border-right: 15px solid transparent;
+    border-top: 53px solid #000000;
+    position: absolute;
+    top: 0;
+    right: -15px;
+
+    @media (max-width: 900px) {
+        border-top: 40px solid #000000;
+    }
+
+    @media (max-width: 500px) {
+        border-top: 33px solid #000000;
+    }
+}
+
+.btn-wrap:hover {
+    background: transparent;
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+.btn-wrap:hover::after {
+    border-top: 53px solid transparent;
+}
+
+.btn-txt {
+    font-family: 'Formular';
+    font-weight: 500;
+    font-size: 16px;
+
+    margin-left: 10px;
+
+    @media (max-width: 500px) {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    @media (max-width: 375px) {
+        font-size: 12px;
+        font-weight: 400;
+        margin-left: 5px;
+    }
+}
