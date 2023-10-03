@@ -5,11 +5,11 @@
     margin: 17px 0;
 
     @media (max-width: 900px) {
-        justify-content: center;
+        justify-content: space-around;
     }
 
     @media (max-width: 500px) {
-        justify-content: center;
+        justify-content: space-around;
     }
 
     &__burger-wrap{
@@ -20,7 +20,7 @@
 
         @media (max-width: 900px) {
             padding: 10px;
-            margin-right: 200px;
+            // margin-right: 200px;
         }
 
         @media (max-width: 500px) {

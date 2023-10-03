@@ -1,57 +1,3 @@
-// @font-face {
-//     font-family: 'Formular';
-//     src: local('Formular Black Italic'), local('Formular-BlackItalic'),
-//         url('Formular-BlackItalic.woff2') format('woff2'),
-//         url('Formular-BlackItalic.woff') format('woff');
-//     font-weight: 900;
-//     font-style: italic;
-// }
-
-// @font-face {
-//     font-family: 'Formular';
-//     src: local('Formular Medium Italic'), local('Formular-MediumItalic'),
-//         url('Formular-MediumItalic.woff2') format('woff2'),
-//         url('Formular-MediumItalic.woff') format('woff');
-//     font-weight: 500;
-//     font-style: italic;
-// }
-
-// @font-face {
-//     font-family: 'Formular';
-//     src: local('Formular Italic'), local('Formular-Italic'),
-//         url('Formular-Italic.woff2') format('woff2'),
-//         url('Formular-Italic.woff') format('woff');
-//     font-weight: normal;
-//     font-style: italic;
-// }
-
-// @font-face {
-//     font-family: 'Formular';
-//     src: local('Formular Light Italic'), local('Formular-LightItalic'),
-//         url('Formular-LightItalic.woff2') format('woff2'),
-//         url('Formular-LightItalic.woff') format('woff');
-//     font-weight: 300;
-//     font-style: italic;
-// }
-
-// @font-face {
-//     font-family: 'Formular';
-//     src: local('Formular Black'), local('Formular-Black'),
-//         url('Formular-Black.woff2') format('woff2'),
-//         url('Formular-Black.woff') format('woff');
-//     font-weight: 900;
-//     font-style: normal;
-// }
-
-// @font-face {
-//     font-family: 'Formular';
-//     src: local('Formular Light'), local('Formular-Light'),
-//         url('Formular-Light.woff2') format('woff2'),
-//         url('Formular-Light.woff') format('woff');
-//     font-weight: 300;
-//     font-style: normal;
-// }
-
 @font-face {
     font-family: 'Formular';
     src: local('Formular'),
@@ -70,20 +16,11 @@
     font-style: normal;
 }
 
-// @font-face {
-//     font-family: 'Formular';
-//     src: local('Formular Bold Italic'), local('Formular-BoldItalic'),
-//         url('Formular-BoldItalic.woff2') format('woff2'),
-//         url('Formular-BoldItalic.woff') format('woff');
-//     font-weight: bold;
-//     font-style: italic;
-// }
-
-// @font-face {
-//     font-family: 'Formular';
-//     src: local('Formular Bold'), local('Formular-Bold'),
-//         url('Formular-Bold.woff2') format('woff2'),
-//         url('Formular-Bold.woff') format('woff');
-//     font-weight: bold;
-//     font-style: normal;
-// }
+@font-face {
+    font-family: 'Formular';
+    src: local('Formular Bold'), local('Formular-Bold'),
+        url('../../fonts/Formular-Bold.woff2') format('woff2'),
+        url('../../fonts/Formular-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
