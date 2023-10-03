@@ -1,0 +1,9 @@
+// Импорт стилей обнуления
+@import './base/reser.scss';
+// Импорт ограничивающего контейнера
+@import './base/container.scss';
+// Импорт шрифтов
+@import './base/fonts.scss';
+
+// Импорт всех блоков SCSS
+@import './blocks/*.scss';
