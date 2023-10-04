@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
     <title>Main page</title>
 </head>
+
 <body>
     <!-- Подключение блоков HTML -->
     <!-- Header -->
     @@include('blocks/header.html')
-    <!-- MainPage -->
+    <!-- MainPage intro страница-->
     @@include('blocks/MainPage.html')
-    <!-- Cities -->
+    <!-- Cities описание города -->
     @@include('blocks/cities.html')
-    <!-- Tabs -->
+    <!-- Tabs блок с табами-->
     @@include('blocks/tabs.html')
+    <!-- CityInfo информация о городе -->
+    @@include('blocks/CityInfo.html')
 
     <script src="./js/index.bundle.js"></script>
 </body>
+
 </html>
