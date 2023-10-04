@@ -1,0 +1,238 @@
+.apartments {
+    background-color: #202020;
+}
+
+.apartments-main {
+    &__title {
+        font-family: 'Formular';
+        font-weight: 700;
+        font-size: 64px;
+        color: #ffffff;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 100px 0;
+
+        @media (max-width: 500px) {
+            font-size: 44px;
+            padding: 70px 0;
+        }
+
+        @media (max-width: 375px) {
+            font-size: 24px;
+            padding: 40px 0;
+        }
+    }
+}
+
+.swiper{
+    max-width: 1440px;
+    position: relative;
+
+    @media (max-width: 1250px) {
+        max-width: 1100px;
+    }
+
+    @media (max-width: 960px) {
+        max-width: 940px;
+    }
+
+    @media (max-width: 375px) {
+        max-width: 320px;
+    }
+}
+
+.slide {
+    display: flex;
+    justify-content: flex-end;
+
+    @media (max-width: 960px) {
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+}
+
+.swiper-wrapper{
+    padding-bottom: 100px;
+
+    @media (max-width: 500px) {
+        padding-bottom: 80px;
+    }
+
+    @media (max-width: 375px) {
+        padding-bottom: 30px;
+    }
+}
+
+.item-slide {
+    @media (max-width: 960px) {
+        padding-right: 40px;
+    }
+
+    @media (max-width: 960px) {
+        padding-right: 0;
+    }
+
+    &__header {
+        position: relative;
+        width: 327px;
+        height: 400px;
+
+        @media (max-width: 960px) {
+            width: 227px;
+            height: 300px;
+        }
+
+        @media (max-width: 500px) {
+            width: 140px;
+            height: 180px;
+        }
+
+        @media (max-width: 375px) {
+            width: 80px;
+            height: 80px;
+        }
+    }
+
+    &__num {
+        font-family: 'Formular';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 1.2;
+        color: #ffffff;
+        top: 0;
+        right: 0;
+        position: absolute;
+
+        @media (max-width: 960px) {
+            font-size: 18px;
+        }
+
+        @media (max-width: 375px) {
+            font-size: 14px;
+        }
+    }
+
+    &__area {
+        font-family: 'Formular';
+        font-weight: 400;
+        font-size: 92px;
+        line-height: 1.2;
+        color: #ffffff;
+        bottom: 0;
+        left: 0;
+        position: absolute;
+
+        @media (max-width: 960px) {
+            font-size: 52px;
+        }
+
+        @media (max-width: 500px) {
+            font-size: 22px;
+        }
+
+        @media (max-width: 375px) {
+            font-size: 10px;
+        }
+    }
+
+    &__footer {
+        padding: 35px 0 40px 0;
+
+        @media (max-width: 960px) {
+            padding: 25px 0 20px 0;
+        }
+
+        @media (max-width: 500px) {
+            padding: 15px 0 10px 0;
+        }
+
+        @media (max-width: 375px) {
+            padding: 5px 0 0 0;
+        }
+    }
+
+    &__price {
+        font-family: 'Formular';
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 1.2;
+        color: #ffffff;
+
+        @media (max-width: 960px) {
+            font-size: 22px;
+        }
+
+        @media (max-width: 500px) {
+            font-size: 16px;
+        }
+
+        @media (max-width: 375px) {
+            font-size: 12px;
+        }
+    }
+
+    &__floor {
+        font-family: 'Formular';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.2;
+        color: #ffffff;
+
+        @media (max-width: 960px) {
+            font-size: 16px;
+        }
+    }
+}
+
+.item-slide:not(:last-child){
+    margin-right: 40px;
+
+    @media (max-width: 500px) {
+        margin-right: 0;
+    }
+}
+
+#slideNext{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding-top: 70px;
+   
+    @media (max-width: 1250px) {
+        display: none;
+    }
+}
+
+#slidePrev{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding-right: 25px;
+    padding-top: 70px;
+
+    @media (max-width: 1250px) {
+        display: none;
+    }
+}
+
+
+// Модификаторы
+.apart-one{
+    background: url(../../img/slider/1.png) no-repeat;
+    margin-left: 150px;
+    @media (max-width: 1350px) {
+        margin-left: 20px;
+    }
+
+    @media (max-width: 960px) {
+        margin-left: 0;
+    }
+}
+
+.apart-two{
+    background: url(../../img/slider/2.png) no-repeat;
+}
+
+.apart-three{
+    background: url(../../img/slider/3.png) no-repeat;
+}
