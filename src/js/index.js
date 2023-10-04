@@ -9,3 +9,6 @@ headerScroll();
 // Tabs меню
 import tabs from "./modules/tabs";
 tabs();
+
+// Swiper slider
+import swiper from "./modules/slider";
